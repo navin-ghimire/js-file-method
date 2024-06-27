@@ -307,65 +307,372 @@
 
 
 
-const person = {
-name: 'hari',
-age: 90,
-sleep: () => {
-  console.log('hello namaste')
-}
-};
+// const person = {
+// name: 'hari',
+// age: 90,
+// sleep: () => {
+//   console.log('hello namaste')
+// }
+// };
 
-console.log(person);
-
-
-
-const car = {
-name: 'supercar',
-mileage: 25,
-date: 2024,
- race: () => {
-console.log('ready to go')
- }
-};
+// console.log(person);
 
 
-console.log(car);
+
+// const car = {
+// name: 'supercar',
+// mileage: 25,
+// date: 2024,
+//  race: () => {
+// console.log('ready to go')
+//  }
+// };
+
+
+// console.log(car);
+
+// const movies = {
+// name: 'seto bagh',
+// director: 'navi',
+// rating: 5.5,
+// release: 2024,
+//  hit: () => {
+// console.log('go and watch')
+//  }
+// };
+
+// movies.hit()
+
+
+// const product = {
+//   name: 'iphone',
+//   brand: 'apple',
+//   rating: 4.5,
+//   products: () => {
+//   console.log('new iphone')
+//   }
+// };
+
+// console.log(product);
+
+
+// const bank ={
+//   name: 'nepal bank',
+//   estd: 2019,
+//   assets: '100millions',
+//   shareholders: 40,
+//   chairPerson: () => {
+//     console.log('governer')
+//   }
+
+// }
+
+// console.log(bank);
+
+
+
+// const random = Math.random() * 5 + 1;
+// const isLogin = true;
+// const isLog = false;
+
+// console.log(Math.floor(random));
+
+
+
+// const age = 10;
+
+
+// const genre = age > 20 ? 'senior' : age === 10 ? 'some' : 'regular';
+
+// console.log(genre);
+
+
+
+// const age = 5;
+
+// if(age === 5) {
+//   console.log('sadddhfhffh');
+// } else if (age < 10){
+//   console.log('run hunu');
+// } else if (age < 60){
+//   console.log('nghg')
+// }else {
+//   console.log('gfgfhghgh')
+// }
+
+
+
+// const age = 45;
+// const a = 50;
+// const b = 90;
+
+
+// console.log(a < b || a === 90);
+// console.log(a > b && a === 90 && a < b);
+
+
+
+// if (age < 20) {
+//   console.log('junior')
+// } else if (age < 50) {
+//   console.log('regular')
+// } else if (age > 50) {
+//     console.log('senior')
+// } else {
+//   console.log('noage')
+// }
+
+
+
+// const salary = 9000000;
+// const expenses = 10000;
+
+// console.log(salary > expenses || salary - expenses)
+
+
+
+
+// const age = 90;
+
+
+// if(age < 12) {
+//   console.log('5 rupee')
+// } else if (age < 18) {
+//   console.log('10 rupee')
+// } else if (age < 60) {
+//   console.log('20 rupee')
+// } else if (age > 60) {
+//   console.log('15 rupee')
+// }
+
+
+
+// const pos = 3;
+
+
+// switch (pos) {
+//   case 1:
+//     console.log('good');
+//     break;
+
+//     case 2:
+//       console.log('bronze medal')
+//       break;
+
+//       case 3:
+//         console.log('silver medal');
+//          break;
+//         default:
+//           console.log('you got no medal')
+// }
+
+
+
+// const a = 90;
+// const b = 100;
+// const calc = 'add';
+
+// console.log(calc);
+
+
+
+
+
+ //const persons = ['ram', 'shyam', 'sita'];
+// const numbers = [11, 22, 33, 44];
+// //persons.push('jack');
+// //persons.pop();
+// //persons.shift();
+// //persons.unshift('li');
+
+// console.log(persons.concat(2));
+
+//const n = persons.concat('jack', 'mack');
+
+ //console.log(n);
+
+
+
+
+// function calculateTicketPrice(age) {
+//   if (age < 12) {
+//     return 5;
+//   } else if (age < 18) {
+//     return 10;
+//   } else if (age < 60) {
+//     return 20;
+//   } else {
+//     return 15;
+//   }
+// }
+
+
+// const age = 25;
+// const ticketPrice = calculateTicketPrice(age);
+// console.log(`ticketPrice for age ${age} is $${ticketPrice}`);
+
+
+
+// const persons = ['ram', 'jack', 'sita', 'sita'];
+// const pers = ['yellow', 'green', 'red', 'ram'];
+
+
+// const newData = [...persons, ...pers];
+
+// const t = new Set([...pers]);
+// const n = new Set([...persons]);
+
+
+// console.log([...t, ...n]);
+
+
+//const pers = 'lios';
+
+//persons[1] = 'hari';
+
+
+//console.log(persons.reverse());
+//console.log(persons.includes('jack'));
+//console.log(persons.join(''));
+//console.log(pers.split('').join('-'));
+
+
+
+
+// function greet(a, b){
+//   console.log(a);
+//   console.log(b);
+// }
+
+// const greet1 = () => {
+//   console.log('data');
+//   console.log('sata');
+// }
+
+// greet(900, 'mio');
+// greet1();
+
+
+
+// let i = 0;
+
+
+// while(i < 20) {
+//   i++;
+//   console.log(i);
+// }
+
+
+// for (let i = 1; i <= 20; i++) {
+//   if (i === 5) {
+//     break;
+//     //continue;
+//   }
+//   console.log(i);
+// }
+
+
+
+// const callTo = (func) => {
+//   func();
+// }
+
+
+// const func = () => {
+//   console.log('call back vayo');
+// }
+
+// callTo(func);
+
+
+//  const numbers = [11, 22, 44, 55, 66, 77];
+
+
+//  let total = 0;
+//  numbers.forEach((n) => {
+// total += n;
+//  });
+
+//  console.log(total);
+
+
+//  const numbers = [11, 22, 44, 55, 66, 77];
+
+//  const j = numbers.map((n) => {
+//   return n === 44 ? 100 : n
+//  });
+
+//  console.log(j);
+
+
+
+//  const numbers = [11, 22, 44, 55, 66, 77];
+
+//  const j = numbers.find((n) => {
+//   return n === 55;
+//  });
+
+// console.log(j);
+
+
+//  const numbers = [11, 22, 44, 55, 66, 77];
+
+//  const j = numbers.filter((n) => {
+//   return n > 60;
+//  });
+
+// console.log(j);
+
+
+
+
+// const numbers = [11, 22, 44, 55, 66, 77];
+   
+// const even = (number) => number % 2 === 0;
+// const odd = (number) => number % 2 !== 0;
+
+// const evenNumbers = numbers.filter(even);
+// const oddNumbers = numbers.filter(odd);
+
+
+// console.log(evenNumbers);
+// console.log(oddNumbers);
+
+
+// const numbers = [11, 22, 44, 55, 66, 77];
+
+// const nis = numbers.reduce((a, b) => {
+// return a + b;
+// });
+
+// console.log(nis);
+
+// const car = {
+//   name: 'porche',
+//   speed: 400,
+//   mileage: 30,
+//   release: 2024,
+//   power: 200,
+
+//   race: () => {
+// console.log('ready to go')
+//   }
+
+// };
+
+// car.race();
+
+
+
 
 const movies = {
-name: 'seto bagh',
-director: 'navi',
-rating: 5.5,
-release: 2024,
- hit: () => {
-console.log('go and watch')
- }
-};
+   name: 'seto bagh',
+   director: 'navi',
+   rating: 5.5,
+   release: 2024,
+    hit: () => {
+   console.log('go and watch');
+    }
+   };
 
-movies.hit()
-
-
-const product = {
-  name: 'iphone',
-  brand: 'apple',
-  rating: 4.5,
-  products: () => {
-  console.log('new iphone')
-  }
-};
-
-console.log(product);
-
-
-const bank ={
-  name: 'nepal bank',
-  estd: 2019,
-  assets: '100millions',
-  shareholders: 40,
-  chairPerson: () => {
-    console.log('governer')
-  }
-
-}
-
-console.log(bank);
-
+   console.log(movies);
