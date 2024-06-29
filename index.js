@@ -676,3 +676,8 @@
 //    };
 
 //    console.log(movies);
+
+
+
+
+//==========//run garna lai terminal ma (nodemon js-method(file name)garne)==============//
