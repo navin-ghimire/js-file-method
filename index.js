@@ -665,14 +665,14 @@
 
 
 
-const movies = {
-   name: 'seto bagh',
-   director: 'navi',
-   rating: 5.5,
-   release: 2024,
-    hit: () => {
-   console.log('go and watch');
-    }
-   };
+// const movies = {
+//    name: 'seto bagh',
+//    director: 'navi',
+//    rating: 5.5,
+//    release: 2024,
+//     hit: () => {
+//    console.log('go and watch');
+//     }
+//    };
 
-   console.log(movies);
+//    console.log(movies);
